@@ -1,0 +1,30 @@
+.game-board {
+  position: absolute;
+  z-index: 10;
+  width: 632px;
+  height: 584px;
+  left: 404px;
+  top: 156px;
+}
+
+.background-gameboard {
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 0;
+  width: 632px;
+  height: 592px;
+  left: 404px;
+  top: 158px;
+}
+
+.container {
+  display: grid;
+  padding: 0;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  position: absolute;
+  width: 617px;
+  height: 528px;
+  left: 421px;
+  top: 174px;
+}

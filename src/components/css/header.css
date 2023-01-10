@@ -1,0 +1,30 @@
+.logo {
+  position: absolute;
+  width: 52px;
+  height: 52px;
+  left: 694px;
+  top: 45px;
+}
+
+button {
+  color: #fff;
+  background-color: #5C2DD5;
+  border-radius: 15px;
+  border: none;
+}
+
+.header-left-button {
+  position: absolute;
+  width: 86px;
+  height: 39px;
+  left: 404px;
+  top: 52px;
+}
+
+.header-right-button {
+  position: absolute;
+  width: 108px;
+  height: 39px;
+  left: 928px;
+  top: 52px;
+}

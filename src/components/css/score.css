@@ -1,0 +1,37 @@
+.scoreboard-one {
+  position: absolute;
+  width: 141px;
+  height: 160px;
+  left: 203px;
+  top: 351px;
+  border: 4px solid black;
+  border-radius: 20px;
+  box-shadow: 2px 8px;
+  background-color: #fff;
+}
+
+.scoreboard-two {
+  position: absolute;
+  width: 141px;
+  height: 160px;
+  left: 1096px;
+  top: 351px;
+  border: 4px solid black;
+  border-radius: 30px;
+  box-shadow: 2px 8px;
+  background-color: #fff;
+}
+
+.player-one {
+  position: absolute;
+  z-index: 1000;
+  left: 247px;
+  top: 324px;
+}
+
+.player-two {
+  position: absolute;
+  z-index: 1000;
+  left: 1140px;
+  top: 324px;
+}

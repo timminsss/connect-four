@@ -1,0 +1,16 @@
+
+.selector-container {
+  display: grid;
+  padding: 0;
+  grid-template-columns: repeat(7, 1fr);
+  position: absolute;
+  width: 617px;
+  height: 630px;
+  left: 410px;
+  top: 116px;
+}
+
+.selector-div {
+  height: 600px;
+  z-index: 30;
+}

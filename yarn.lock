@@ -1083,6 +1083,30 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
+"@chakra-ui/counter@^2.0.12":
+  version "2.0.12"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/counter/-/counter-2.0.12.tgz#68007b194aed7e5e55e185fddd38c778d2467354"
+  integrity sha512-LselA3J2OvO1GxXo9pTvFEDEYXaSkelEGAOasUfME2ckQnznMOI96x7cLAujyMuhTAuGnz0n4mxAOp/iMHKL4Q==
+  dependencies:
+    "@chakra-ui/number-utils" "2.0.6"
+    "@chakra-ui/react-use-callback-ref" "2.0.6"
+    "@chakra-ui/shared-utils" "2.0.4"
+
+"@chakra-ui/number-utils@2.0.6":
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/number-utils/-/number-utils-2.0.6.tgz#3db0e61dd542d5753b3db4702bf9fae6653ceb82"
+  integrity sha512-VLOyoiXGpZ+eCQSPqKdBCEpen9VAo6pc6FDFuf4BNdIVEfh6ee//Zl7XjyTAGr1G4HUANp8ZxVHHPvtQ10VP4w==
+
+"@chakra-ui/react-use-callback-ref@2.0.6":
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/react-use-callback-ref/-/react-use-callback-ref-2.0.6.tgz#e382cfa198a376804946f57fa564f17ea6efdccc"
+  integrity sha512-JKh0GJQvLonjSVQJjsBs2gE+Zix/DXfAo8kzNE+DzNf49CNomX59TkcJNXDjtzSktn6GfqDF8IOObJlGlbtG7g==
+
+"@chakra-ui/shared-utils@2.0.4":
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/shared-utils/-/shared-utils-2.0.4.tgz#8661f2b48dd93d04151b10a894a4290c9d9a080c"
+  integrity sha512-JGWr+BBj3PXGZQ2gxbKSD1wYjESbYsZjkCeE2nevyVk4rN3amV1wQzCnBAhsuJktMaZD6KC/lteo9ou9QUDzpA==
+
 "@csstools/normalize.css@*":
   version "12.0.0"
   resolved "https://registry.yarnpkg.com/@csstools/normalize.css/-/normalize.css-12.0.0.tgz#a9583a75c3f150667771f30b60d9f059473e62c4"
@@ -1779,7 +1803,7 @@
     lodash "^4.17.15"
     redent "^3.0.0"
 
-"@testing-library/react@^13.0.0":
+"@testing-library/react@^13.4.0":
   version "13.4.0"
   resolved "https://registry.yarnpkg.com/@testing-library/react/-/react-13.4.0.tgz#6a31e3bf5951615593ad984e96b9e5e2d9380966"
   integrity sha512-sXOGON+WNTh3MLE9rve97ftaZukN3oNf2KjDy7YTx6hcTO2uuLHuCGynMDhFwGw/jYf4OJ2Qk0i4i79qMNNkyw==
@@ -7543,6 +7567,11 @@ react@^18.2.0:
   integrity sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==
   dependencies:
     loose-envify "^1.1.0"
+
+reactjs-countdown-hook@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/reactjs-countdown-hook/-/reactjs-countdown-hook-1.0.5.tgz#dc3def4a47eadf55e769195ed57c36b9cbe771b2"
+  integrity sha512-qX40cqqjqQHLTGcXgzkuYAIA0yF9FmE8mZfPbsc9ny4LlkWzFFhwMb/kpwKZkv9Vi0Ph8g9srXY83eZeXXsVNw==
 
 read-cache@^1.0.0:
   version "1.0.0"
